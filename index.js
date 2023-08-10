@@ -36,5 +36,6 @@ app.get("/categories/:id", (req, res) => {
     res.send(categoryNews);
   }
 });
+// finally send
 
 app.listen(port);
